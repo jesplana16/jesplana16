@@ -47,11 +47,11 @@ $ready_to_confirm = isset($_SESSION['ready_to_confirm']) && $_SESSION['ready_to_
 
       <ul class="nav-links">
         <i class="uil uil-times navCloseBtn"></i>
-        <li><a href="home.php">HOME</a></li>
+        <li><a href="index.html">HOME</a></li>
         <li><a href="products.php">PRODUCTS</a></li>
-        <li><a href="services.php">SERVICES</a></li>
-        <li><a href="about.php">ABOUT US</a></li>
-        <li><a href="contact.php">CONTACT US</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
       </ul>
 
       <a href="profile.php" class="profile-icon">

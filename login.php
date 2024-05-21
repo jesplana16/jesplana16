@@ -30,7 +30,7 @@
                     $_SESSION['id'] = $row['Id'];
             
                     if(isset($_SESSION['valid'])){
-                        header("Location: home.php");
+                        header("Location: index.html");
                         exit(); // Ensure the script stops executing after redirection
                     }
                 } else {

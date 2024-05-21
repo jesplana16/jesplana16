@@ -20,7 +20,7 @@
 <body>
 <header class="profile-page">
         <nav class="top-nav">
-            <a href="home.php" class="logo">JE'TZY</a>
+            <a href="index.html" class="logo">JE'TZY</a>
             <div class="nav-right">
                 <a href="cart.php" class="nav-icon"><i class="uil uil-shopping-cart">Cart</i></a>
                 <a href="login.php" class="nav-button">Logout</a>
