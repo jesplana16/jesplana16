@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(11.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #004080 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-top: 0;
+}
+
+div img{
+    border:1px solid #004080 ;
+    height:400px;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #004080;
+}
+
+nav ul li a:hover {
+    background: #003366;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section#home {
+    text-align: center;
+    padding: 60px 0;
+}
+
+h2{
+    border: 2px solid #007bff;
+    background-color: #007bff;
+}
+
+footer {
+    background: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: #004080 3px solid;
+}
+
+img{
+    height: 100px;
+    justify-content: space-between;
+}
+
+.product img{
+    justify-items: space-between;
+}
+
+.product123 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #007bff;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border: none;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.order a{
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
